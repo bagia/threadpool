@@ -157,7 +157,6 @@ public:
     }
   }
 
-  // will never return unless all threads crash
   void join() noexcept
   {
     std::unique_lock<std::mutex> lock { m_worker_count_mutex };
