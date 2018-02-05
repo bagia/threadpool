@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Project settings
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
